@@ -1,3 +1,6 @@
+@import "./dist/js/baguetteBox.js";
+@import "./dist/css/baguetteBox.min.css";
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,12 +9,14 @@
     
 }
 
-input {
+.search input {
     height: 40px;
     width: 400px;
     border: 1px solid lightgray;
     border-radius: 5px;
     font-weight: bold;
+    font-size: 1.3rem;
+    padding-left: 2px;
 }
 
 .search {
@@ -27,8 +32,12 @@ input {
     width: 80%;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
     grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
 }
 
 .gallery img {
-    width: 100%;
+    width: 150px;
+    height: 150px;
 }
