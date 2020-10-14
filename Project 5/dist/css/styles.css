@@ -12,6 +12,8 @@ input {
   border: 1px solid lightgray;
   border-radius: 5px;
   font-weight: bold;
+  font-size: 1.3rem;
+  padding-left: 2px;
 }
 
 .search {
@@ -29,9 +31,16 @@ input {
   -ms-grid-columns: (minmax(150px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 100vh;
 }
 
 .gallery img {
-  width: 100%;
+  width: 150px;
+  height: 150px;
 }
 /*# sourceMappingURL=styles.css.map */
