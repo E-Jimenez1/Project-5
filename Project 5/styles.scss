@@ -14,14 +14,12 @@ input {
     border: 1px solid lightgray;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 1.3rem;
-    padding-left: 2px;
 }
 
 .search {
     display: block;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -29,6 +27,7 @@ input {
     display: grid;
     margin: auto;
     width: 80%;
+    max-width: 900px;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
     grid-gap: 20px;
     justify-content: center;
